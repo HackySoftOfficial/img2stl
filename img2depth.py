@@ -11,7 +11,7 @@ async def update_ui(root):
     while True:
         try:
             root.update()
-            await asyncio.sleep(0.01)
+            await asyncio.sleep(0.1)
         except tk.TclError:
             break
 
